@@ -1,6 +1,6 @@
-import { useRef } from 'react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react'
+import { useRef } from 'react';
 
 import { animateWithGsap } from '../utils/animations';
 import { explore1Img, explore2Img, exploreVideo } from '../utils';

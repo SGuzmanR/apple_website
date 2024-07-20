@@ -15,7 +15,7 @@ const Works = () => {
         start: '20% bottom'
       },
       opacity: 0,
-      scale: 2,
+      scale: .5,
       duration: 2,
       ease: 'power2.inOut'
     })
