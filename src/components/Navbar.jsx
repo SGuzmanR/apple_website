@@ -99,12 +99,12 @@ const Navbar = () => {
           ref={mobileRef}
           className="bg-zinc w-screen h-screen fixed top-0 left-0 overflow-hidden z-10 opacity-0 translate-y-[-80vh]"
         >
-          <div className="common-padding screen-max-width">
+          <div className="px-8 pt-20 screen-max-width">
             <div className="flex flex-col gap-5">
               {navLists.map((item) => (
                 <div
                   key={item.title}
-                  className={`w-full text-3xl flex cursor-pointer transition-colors gap-5 text-gray active:text-white`}
+                  className={`w-full text-2xl flex cursor-pointer transition-colors gap-5 text-gray active:text-white`}
                 >
                   <ul>
                     <li>
