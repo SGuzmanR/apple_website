@@ -5,5 +5,5 @@ import tailwindcss from 'tailwindcss';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/apple_website/"
+  base: "./"
 })
